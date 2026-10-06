@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# TensorFlow/Keras temporary files
+*.h5
+*.keras
+*.ckpt
+*.pb
+*.tflite
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Project outputs
+saved_models/
+results/
+*.log
+
+# Local dataset folders (optional if you want to keep them out of git)
+dataset/
